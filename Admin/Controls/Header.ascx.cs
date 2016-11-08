@@ -1,0 +1,59 @@
+namespace Admin.Controls
+{
+	using System;
+	using System.Data;
+	using System.Drawing;
+	using System.Web;
+	using System.Web.UI.WebControls;
+	using System.Web.UI.HtmlControls;
+
+	/// <summary>
+	///		Summary description for Header.
+	/// </summary>
+	public partial class Header : System.Web.UI.UserControl
+	{
+
+		protected void Page_Load(object sender, System.EventArgs e)
+		{
+			System.Web.HttpContext context = System.Web.HttpContext.Current;
+			// If the user is authenticated
+			if (Request.IsAuthenticated==true)
+			{
+				if (Response.Cookies["REST_USER"] != null)
+				{
+					literalUser.Text =(Response.Cookies["REST_USER"].Value);
+
+				}
+				else
+				{
+					literalUser.Text=Context.User.Identity.Name;      
+				}
+
+			}
+			else
+			{
+				literalUser.Text="Guest";  
+				
+			}
+		}
+		#region Web Form Designer generated code
+		override protected void OnInit(EventArgs e)
+		{
+			//
+			// CODEGEN: This call is required by the ASP.NET Web Form Designer.
+			//
+			InitializeComponent();
+			base.OnInit(e);
+		}
+		
+		/// <summary>
+		///		Required method for Designer support - do not modify
+		///		the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+
+		}
+		#endregion
+	}
+}

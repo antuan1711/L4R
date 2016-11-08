@@ -1,0 +1,55 @@
+
+/*********Table Styles**********/
+#content .table-container{
+	width:670px;
+	overflow:auto;
+	text-align:center;
+}
+
+#content table{
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#content table th{
+	background-color:#a0b2c5;
+	padding:20px 8px 5px 20px;
+	text-align:center;
+}
+#content table td{
+	padding:5px 10px;
+}
+
+#content table th,
+#content table td{
+	border-right:1px solid #ecf0f4;
+}
+#content table tr.even{
+	background:#fff;
+}
+#main #column-right #content table th a,
+#main #column-right #content table th a:visited{
+	color:#fff;
+	text-decoration:underline;
+}
+#main #column-right #content table th a:hover,
+#main #column-right #content table th a:active{
+	color:#963;
+}
+#main #column-right #content table td a,
+#main #column-right #content table td a:visited{
+	font-weight:bold;
+	color:#963;
+}
+#main #column-right #content table td a:hover,
+#main #column-right #content table td a:active{
+	color:#a0b2c5;
+}
+
+
+/*********End - Table Styles**********/
+
+
+.Restaurants-Info
+{
+    margin:0 !important;
+}

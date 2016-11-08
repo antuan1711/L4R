@@ -1,0 +1,15 @@
+.coolfieldset{
+}
+
+.coolfieldset, .coolfieldset.expanded{
+}
+
+.coolfieldset.collapsed{
+	border:0;
+}
+
+.coolfieldset legend{
+	cursor:pointer;
+
+}
+

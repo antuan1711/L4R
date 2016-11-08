@@ -1,0 +1,41 @@
+/*CSS Code for articles*/
+#content-mid .article{
+	padding:10px 0;
+	border-bottom:1px solid #ff7d2f;
+}
+#content-mid .article .title{ 
+	width:670px;
+	float:left;
+}
+#content-mid .article .photo{
+	width:170px;
+	float:left;}
+#content-mid .article .article-content{
+	width:480px;
+	padding:0 10px 5px 10px;
+	float:left;}
+#content-mid .article .author-publish{
+	width:480px;
+	float:left;
+}
+#content-mid .article .author{
+	padding-right: 10px;
+	float:left;
+}
+#content-mid .article .publish-date{
+	padding-left:10px;
+	float:left;
+	font-style:italic;
+}
+#content-mid .article .content-paragraph{
+	width:480px;
+	padding:5px 0;
+	float:left;
+	font-style:italic;}
+#content-mid .article .more-link{
+	width:670px;
+	float:left;
+	text-align:right;
+	font-weight:bold;
+	font-style:italic;
+}

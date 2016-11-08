@@ -1,0 +1,263 @@
+﻿@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #FFF url(../images/bg.png) repeat-x center top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#666;
+	background-attachment: scroll;
+}
+ul,li,div{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+a, a:visited {
+	color: #486fa8;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #69a6ff;
+	text-decoration: none;
+}
+a.orange, a.orange:visited{
+	color:#f67524;
+}
+a.orange:hover, a.orange:active{
+	color:#fdb283;
+}
+a.white, a.white:visited{
+	color:#fff;
+}
+a.white:hover, a.white:active{
+	color:#fdb283;
+}
+a.grey, a.grey:visited{
+	color:#444;
+}
+a.grey:hover, a.grey:active{
+	color:#869559;
+}
+a.green, a.green:visited{
+	color:#869559;
+}
+a.green:hover, a.green:active{
+	color:#444;
+}
+h1,h2,h3{
+	font-weight:bold;
+	color:#486fa8;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+h1{
+	font-variant:small-caps;
+	font-size:24px;
+	margin-bottom:10px;
+}
+h2{
+	font-variant:small-caps;
+	font-size:18px;
+	margin-bottom:5px;
+}
+h3{
+	font-size:14px;
+	margin-bottom:2px;
+}
+#page-title{
+	font-weight:bold;
+	color:#486fa8;
+	font-variant:small-caps;
+	font-size:18px;
+	margin-bottom:5px;
+}
+.paragraph{
+}
+.subheading{
+	font-style:italic;
+}
+.clr-blk {
+	clear: both;
+}
+#background {
+	background-attachment: scroll;
+	background-image: url(../images/accent.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 100%;
+	width: 100%;
+
+}
+#page {
+	width: 500px;
+	margin:0 auto;
+}
+#header {
+	width: 485px;
+	padding: 30px 0 10px 15px;
+}
+#header-logo {
+	float: left;
+	width: 300px;
+}
+#header-l4r {
+	float: right;
+	width: 51px;
+	padding: 45px 10px 0 0;
+}
+#menu {
+	background-image: url(../images/menu-top.png);
+	width: 980px;
+	height: 25px;
+	color: #486fa8;
+	list-style-type: none;
+	font-weight: bold;
+	text-align: right;
+}
+#background #page #menu ul li {
+	display: inline;
+	list-style: none;
+	font-size: 17px;
+	padding: 0px 20px;
+}
+#background #page #menu ul {
+	padding: 3px 0 0 0;
+}
+#main {
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+	width: 980px;
+	margin-top: 10px;
+}
+#column-left {
+	height: 100%;
+	width: 276px;
+	float: left;
+	font-size:14px;
+}
+#column-left .left-blk{
+	margin-bottom:10px;
+}
+#login-register {
+	background-image: url(../images/login-bg.png);
+	background-repeat: no-repeat;
+	width: 266px;
+	padding: 10px 5px;
+	height: 335px;
+}
+form.login {
+	text-align: center;
+	padding-top:20px;
+}
+.login-field {
+	margin-bottom: 15px;
+}
+
+
+#login-area {
+	margin-bottom: 25px;
+}
+#login-register h3 {
+	margin: 0px;
+	padding: 3px;
+	color: #486fa8;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e2722f;
+}
+
+#register-area p {
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+
+#register-area {
+	text-align: center;
+}
+
+
+
+/*MAIN COLUMN*/
+#column-right {
+	width: 500px;
+	float: left;
+	margin-left:14px;
+}
+#column-right #content-top,
+#column-right #content-mid,
+#column-right #content-bot{
+	background:url(../images/main-bg-mid.png) top center repeat-y;
+	display:block;
+	width:500px;
+	float:left;
+}
+#column-right #content-top{
+	background:url(../images/main-bg-top.png) top center no-repeat;
+	height:15px;
+}
+#column-right #content-mid{
+	padding:0 10px 10px 10px;
+	width:485px;
+}
+#column-right #content-bot{
+	background:url(../images/main-bg-bot.png) bottom center no-repeat;
+	height:15px;
+}
+
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+#social-media {
+	font-size: 17px;
+	color: 666;
+	text-align: center;
+	font-weight: bold;
+}
+#footer {
+	background-attachment: scroll;
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 10px;
+	height: 32px;
+	width: 480px;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+}
+#footer a,#footer a:visited{
+	color:#8c6239;
+}	
+
+#footer a:hover, #footer a:active {
+	color: #de8730;
+	text-decoration: none;
+}#content-mid .form label{
+	width:160px;
+	float:left;
+	text-align:right;
+	padding-top:6px;
+}
+
+#content-mid .form .field-input{
+	margin:0 0 0 10px;
+	width:300px;
+	float:left;
+	text-align:left;
+}

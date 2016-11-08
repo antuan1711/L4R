@@ -1,0 +1,68 @@
+/***********LEFT MENU*********/
+#column-left .left-menu li{
+	list-style:none;
+	width:200px;
+	height:22px;
+	margin-bottom:1px;
+}
+#column-left .left-menu li a,
+#column-left .left-menu li a:visited{
+	display:block;
+	padding:3px 0 0 25px;
+	width:225px;/*275-25*/
+	height:30px;/*22-3*/
+	background:url(../images/left-menu-def.png) left top no-repeat;
+	color:#FFF;
+	font-variant:small-caps;
+}
+.activelink
+{
+		background:url(../images/left-menu-hov.png) left top no-repeat;
+}
+#column-left .left-menu li a:hover,
+#column-left .left-menu li a:active
+{
+	background:url(../images/left-menu-hov.png) left top no-repeat;
+		color:#FFF;
+}
+
+#column-left .left-menu li ul{
+	background:url(../images/left-menu-sub-bg.png) left top no-repeat;
+	left:225px;
+	top:0;
+	padding-left:10px;
+}
+
+#column-left .left-menu li ul li ul
+{
+    left:200px;
+}
+#column-left .left-menu li ul li{
+	width:200px;
+	height:22px;
+}
+#column-left .left-menu li ul li a,
+#column-left .left-menu li ul li a:visited{
+	width:190px;
+	padding:3px 0 0 10px;
+	height:25px;/*22-3*/
+	background:url(../images/left-menu-sub-item-def.png) right top no-repeat;
+}
+#column-left .left-menu li ul li a:hover,
+#column-left .left-menu li ul li a:active{
+	background:url(../images/left-menu-sub-item-hov.png) right top no-repeat;
+}
+
+
+/***********--LEFT MENU*********/
+
+
+
+
+
+
+
+
+
+
+

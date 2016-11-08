@@ -1,0 +1,82 @@
+@charset "utf-8";
+body 
+{
+	font-size:12px;
+}
+.clr-blk{
+	height:0px;
+}
+#edit-resto form{
+	margin-top:0;
+}
+
+#edit-resto #mover-block{
+	display:none;
+}
+#edit-resto .def-fieldsets{
+	margin-bottom:35px;
+}
+#edit-resto .bor-fieldsets{
+	margin-top:0px;
+	margin-bottom:35px;
+}
+#edit-resto .fieldsets{
+	margin-top:0px;
+	margin-bottom:10px;
+}
+#content-mid form legend {
+    white-space: normal; 
+}
+#content-mid form legend span {
+    display:block;
+    width: 100%;
+}
+#edit-resto .field-input input.text-field,
+#edit-resto .field-input textarea{
+	margin-left:-10px;
+	border:#abadb3 solid 1px;
+}
+#edit-resto .chkbox input{
+	padding:0;
+	margin:-5px 0 0 -4px;
+	border:none;
+}
+#edit-resto .chkbox{
+	padding:0 5px 0 0;
+}
+#edit-resto select{
+	height:20px;
+	margin-bottom:2px;
+	border:#abadb3 solid 1px;
+}
+#edit-resto #btnSubmit{
+	margin:10px 0 0 -10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#event-schedule .week-left,
+#event-schedule .week-right{
+}
+
+.form#search #btnSearch,
+.form#search #btnSearchAdv{
+	height:24px;
+	padding:0 30px;
+	
+}
+.button
+{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+input#btnsubmit
+{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}

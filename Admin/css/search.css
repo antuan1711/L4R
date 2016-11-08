@@ -1,0 +1,138 @@
+/* SEARCH FORM CSS */
+
+#search {
+    margin: 10px 0;
+}
+
+
+
+form fieldset {
+    padding: 0;
+    margin: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0;
+    -webkit-padding-start: 0;
+    -webkit-padding-end: 0;
+    -webkit-padding-after: 0;
+    border: none;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 1px;
+    margin: 0;
+}
+
+
+
+#content-main form {
+    margin-top: 10px;
+}
+
+#search form li {
+    margin-bottom: 5px;
+}
+
+.form-bi-left {
+    width: 50%;
+    float: left;
+}
+
+.form-bi-right {
+    width: 50%;
+    float: left;
+}
+
+#search .form-tri-1,
+#search .form-tri-2,
+#search .form-tri-3 {
+    width: 240px; /*221-20-20*/
+    float: left;
+    margin-top: 10px;
+}
+
+#search .form-tri-1,
+#search .form-tri-2 {
+    border-right: 1px solid #666;
+}
+
+.form-column {
+    padding: 10px 20px;
+}
+
+.fieldsets {
+    background: url(../images/form-divider.png) no-repeat left top;
+    border-bottom: 1px solid #abadb3;
+    padding-bottom: 20px;
+}
+
+.fieldsets {
+    margin-top: 15px;
+}
+
+.field-input-left, .field-input-right {
+    width: 170px;
+    padding: 0 5px;
+    float: left;
+}
+
+.chkbox {
+    width: 13px;
+    padding: 0 5px 5px 0;
+    float: left;
+}
+
+.chkbox-label {
+    float: left;
+    width: 150px;
+    padding: 0 0 5px 0;
+    clear: right;
+}
+
+.field-checkbox {
+    margin: 2px 0;
+}
+
+.button {
+}
+
+input#btnSubmit {
+    margin-top: 30px;
+    padding: 2px 30px;
+}
+
+#btnSearch, #btnSearchAdv {
+    padding: 2px 30px;
+}
+
+.form-column li {
+    padding-bottom: 10px;
+}
+
+.Restaurants-Detail ul li {
+    display: inline-block;
+    width: 240px;
+    float: left;
+}
+
+
+.thhead select {
+    width: 50px !important;
+}
+
+.width-10 {
+    width: 10% !important;
+}
+
+.service-type {
+    width: 140px !important;
+}
+
+.checkbox-select-all {
+    width: 30px !important;
+}

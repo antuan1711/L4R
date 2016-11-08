@@ -1,0 +1,189 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../Images/bg.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-attachment: scroll;
+}
+
+
+.clear-block {
+	clear: both;
+}
+#background {
+	background-attachment: scroll;
+	background-image: url(../Images/accent.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 100%;
+	width: 100%;
+	min-height:550px;
+}
+#page {
+	width: 900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#header {
+	width: 885px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+#header-logo {
+	float: left;
+	width: 351px;
+}
+#header-l4r {
+	float: right;
+	width: 51px;
+	padding-top: 45px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#menu {
+	background-image: url(../Images/menu-top1.png);
+	width: 901px;
+	height: 25px;
+	color: #486fa8;
+	list-style-type: none;
+	font-weight: bold;
+	text-align: right;
+}
+#background #page #menu ul li {
+	display: inline;
+	list-style: none;
+	font-size: 17px;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+#background #page #menu ul {
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+a, a:visited {
+	color: #486fa8;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #69a6ff;
+	text-decoration: none;
+}
+#main {
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+	width: 900px;
+	margin-top: 20px;
+}
+#column-left {
+	height: 100%;
+	width: 276px;
+	float: left;
+}
+#login-register {
+	background-image: url(../Images/login-bg.png);
+	background-repeat: no-repeat;
+	width: 266px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	height: 355px;
+}
+form.login {
+	text-align: center;
+	padding-top:20px;
+}
+.login-field {
+	margin-bottom: 15px;
+}
+
+
+#login-area {
+	margin-bottom: 25px;
+}
+#login-register h3 {
+	margin: 0px;
+	padding: 3px;
+	color: #486fa8;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e2722f;
+}
+#register-area p {
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+
+#register-area {
+	text-align: center;
+}
+
+
+#column-right {
+	height: 100%;
+	width: 590px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.tip-title {
+	font-size: 18px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: none;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+#social-media {
+	font-size: 17px;
+	color: 666;
+	text-align: center;
+	font-weight: bold;
+}
+#footer {
+	background-attachment: scroll;
+	background-image: url(../Images/footer.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 10px;
+	height: 32px;
+	width: 880px;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+}
+#footer a,#footer a:visited{
+	color:#8c6239;
+}	
+
+#footer a:hover, #footer a:active {
+	color: #de8730;
+	text-decoration: none;
+}
